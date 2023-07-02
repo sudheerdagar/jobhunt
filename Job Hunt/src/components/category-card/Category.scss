@@ -1,0 +1,25 @@
+.category {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 2px 4px 18px 0px rgba(155, 81, 224, 0.3);
+  width: 250px;
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+
+    .details {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+}
